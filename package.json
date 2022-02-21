@@ -1,0 +1,23 @@
+{
+  "name": "mynodeprj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dipanjansf/mynodeprj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dipanjansf/mynodeprj/issues"
+  },
+  "homepage": "https://github.com/dipanjansf/mynodeprj#readme",
+  "dependencies": {
+    "http": "^0.0.1-security"
+  }
+}
