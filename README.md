@@ -10,6 +10,11 @@ $ docker build -t cdipanjan/mynodeproj:1.1 .
 $ docker images
 ```
 
+### Push image to registry
+```
+$ docker push cdipanjan/mynodeproj:1.1
+```
+
 ### Run the Dockerfile to create a container
 ```
 $ docker run -p 85:8081 --name mynodejs1 cdipanjan/mynodeproj:1.1

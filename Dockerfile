@@ -12,6 +12,4 @@ COPY . .
 EXPOSE 8081
 
 # Invoke java executable and run the app.jar file. There is only ONE CMD instruction in a Dockerfile and it is used as default to executing the container. The CMD form can vary, refer to the Docker Docs: Dockerfile Reference on formatting these shell commands. Another, commonly used, command is `ENTRYPOINT ["java", "-jar", "app.jar"]`
-#CMD java -jar app.jar
-#CMD tail -f /dev/null
 CMD ["npm", "start"]
