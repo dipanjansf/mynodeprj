@@ -22,5 +22,5 @@ $ docker run -p 85:8081 --name mynodejs1 cdipanjan/mynodeproj:1.1
 
 ### Access the App from Web!
 ```
-http://localhost:8081/
+http://localhost:85/
 ```
